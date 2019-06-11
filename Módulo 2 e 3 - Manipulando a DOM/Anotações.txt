@@ -1,0 +1,77 @@
+button
+	Define um botão na dela (pode também colocar uma mensagem nele, como "Me pressione")
+
+
+onclick
+	Sempre que clicar, exibirá uma mensagem (" O botão foi clicado! ") --- Definido pelo alert
+
+
+onmouseover
+	Sempre que passar com o mouse em cima, exibirá uma mensagem (" O botão foi clicado! ") --- Definido pelo alert
+
+onkeypress
+	Assim que digitar a primeira tecla, ele exibirá uma mensagem definida
+
+
+alert
+	Exibe um alerta após uma função data a essa ação (alert)
+
+	function mostraAlerta() {
+		alert('Botão foi clicado');
+	}
+
+var inputElement
+	Referenciar elementos
+
+
+id ajuda a Referenciar
+document.getElementById()
+	documento = variável global que se refere a DOM do meu documento/Árvore de elementos
+	get = buscar/busque
+	ElementById = Elementos com o id "X"
+
+
+document.getElementsByTagName
+	Buscar a tag que está utilizando ('input'), não tem garantia que eserá único, ele sempre irá retornar um vetor.
+
+Se tiver mais de um input, dá para dizer, qual quer
+document.getElementByTagName('input')[0]
+
+document.getElementsByClassName
+	Buscando por class definida
+
+
+document.querySelector
+	Posso mostrar onde está exatamente
+var inputElement = document.querySelector('div#app input');
+var inputElement = document.querySelector('input[name=nome]');
+var inputElement = document.querySelectorAll('input[name=nome]');
+	Referência todos os elementos
+
+EXEMPLO:
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Curso JavaScript</title>
+	</head>
+	<body>
+		<div id = "app">
+			<input type="text" name="nome" />
+			<button class="botao">Adicionar</button>
+		</div>
+
+
+		<script>
+			var inputElement = document.querySelector('body div#app input');
+
+
+			console.log(inputElement);
+		</script>
+	</body>
+</html>
+
+var linkElement = document.createElement('a');
+
+
+linkElement.setAttribute(href ou a , 'site')
+	href ou setAttribute('')
