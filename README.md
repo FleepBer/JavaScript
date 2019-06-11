@@ -1,4 +1,4 @@
-# JavaScript
-Introdução ao JavaScript
+﻿# Javascript
+Introdução ao Javascript
 
 Será inserido aqui, códigos conforme meu aprendizado!
