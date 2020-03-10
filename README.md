@@ -1,4 +1,4 @@
 ﻿# Javascript
-Introdução ao Javascript
+Introduction to Javascript
 
-Será inserido aqui códigos conforme meu aprendizado!
+It will be inserted here codes according to my learning!
